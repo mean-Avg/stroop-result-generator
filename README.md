@@ -1,0 +1,1 @@
+# stroop-result-generator
