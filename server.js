@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
 
-app.get("/submitParticipantData", (req, res) => {
+app.post("/submitParticipantData", (req, res) => {
   res.send("ok");
 });
 
